@@ -96,5 +96,11 @@
             </div>
         </div>
     </section>
+    <script>
+        document.getElementById('login-button').addEventListener('click', function(event) {
+            event.preventDefault(); // Zapobiega domyślnemu zachowaniu linku
+            alert('Zostałeś zalogowany');
+        });
+    </script>
 </body>
 </html>
